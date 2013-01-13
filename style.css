@@ -1,0 +1,11 @@
+/*
+Theme Name:     Twenty Ten WoodCP
+Theme URI:      http://www.woodcp.com/
+Description:    Child theme for the Twenty Ten theme 
+Author:         Todd A. Wood
+Author URI:     http://www.woodcp.com/about/
+Template:       twentyten
+Version:        0.1.0
+*/
+
+@import url("../twentyten/style.css");
