@@ -1,8 +1,5 @@
 <?php
-
-function woodcp_header_image_height() {
-    echo 125;
-}
-
-add_filter('twentyten_header_image_height','woodcp_header_image_height');
+define( 'HEADER_IMAGE', 'http://woodcp.wpengine.com/wp-content/uploads/2012/01/forestfloor-wcp-code.jpg' );
+define( 'HEADER_IMAGE_WIDTH', apply_filters( 'twentyten_header_image_width', 940 ) );
+define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'twentyten_header_image_height', 125 ) );
 ?>
